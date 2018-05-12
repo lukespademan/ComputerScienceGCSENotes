@@ -102,6 +102,51 @@ In extended ASCII (we will not just refer to this as ASCII, as noone use 7-bit A
 This means that to calcuate the file of a plain text file, you just get the amount of characters (include spaces) and that is your amount of bytes.
 So, **Hello, World! I am learning Computer Science.** has 45 characters so is 45 bytes in size.
 
+### Images
+Text isn't the only thing computers store.
+Images can also be represented in binary.
+Images are made up of lots of pixels (or picture elements).
+You often desribe an image by how many pixels it has.
+So an 2048 x 1536 image would mean that the image had 3145728 pixels.
+
+As the amount of pixels used to represent an image increases, so does the file size (and quality). This works the other way around.
+
+The reolution of an image is how many pixels is has per quare inch on the computer screen. If the resolution is higher, the image looks better.
+
+#### Colour Depth
+The colour depth of an image is how many bits that are used to represent a pixel.
+If the color depth is one, there is 1 bit per pixel, meaning that a pixel can be black or white.
+
+Increasing the colour depth increase how many colour a pixel could be, but also increases the file size. A color depth of 3 allow 8 colours to be used (2<sup>2</sup>).
+
+If the colour depth is 8, then you can hase 256 different colors or red green and blue, meaing 16777216 different colours.
+This is known as True Colors.
+
+#### How big is an image file.
+
+To calculate the size of an image file you fist need to know how many pixels are in an image.
+Lets say that it is a very small 10x5 image, so there are 50 pixels.
+
+Next you need to know how many bits represent each pixel. If there are 8 different colours you know that each pixel is 3 bits.
+
+Now multiply the amount of pixels by the space take up by each pixel to get the file size.
+In our case 50x3 = 150 bits, meaning the image size is 150B
+
+#### Image MetaData
+An image file does not just store the image itself. Often data about the data (or meta data) is also stored. This can be:
+* The GPS location of where the image was taken
+* the camera make / model
+* the camera aperture setting
+* the speed settings
+* the dimentions of the image file
+
+Other meta data can be added by the user such as
+* titles
+* captions
+* headlines
+* descriptions
+
+
 ## Types of storage
 There are three main types of storage
 * Optical
