@@ -50,3 +50,10 @@ This is just a priavte network.
 ### DNS
 A DNS (or domain name server) allows you to convert a domain name (e.g. example.com) into an IP address (e.g 93.184.216.34).
 It is just like a phone book (like the yellow pages) for the internet.
+
+### Hosts
+A Host, simply put, is a computer that can be remotely accessed via a network (e.g. the internet).
+
+### The Cloud
+When you store files in the cloud, they are just stored in a concrete building somewhere. 
+The cloud is just the name for remoetly accessable storage via a network.
