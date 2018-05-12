@@ -39,3 +39,14 @@ These are as follows:
 * Switches / Routers
 * NIC (Network interface card)
 * Transmition media
+
+## So... What is the Internet?
+An internet is just a publically accesable network of networks.
+You may have head for an intranet.
+This is just a priavte network.
+
+**The Internet** is just the name we with the massive internet that you are using to view thses notes.
+
+### DNS
+A DNS (or domain name server) allows you to convert a domain name (e.g. example.com) into an IP address (e.g 93.184.216.34).
+It is just like a phone book (like the yellow pages) for the internet.
