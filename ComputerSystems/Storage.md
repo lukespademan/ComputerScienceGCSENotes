@@ -146,6 +146,35 @@ Other meta data can be added by the user such as
 * headlines
 * descriptions
 
+### Sound
+To know how computers represent sound, we first need to know what sound is.
+
+Sound is just vibrations that travel through a medium.
+The most common mediums for sound to travel through is air; water; materials like wood, metal and glass.
+
+When these vibrations hit tiny hairs in our earsm out brain turns it into sound.
+
+A wave can be plotted to represent sound. the the wavelength is wider, then the frequency is lower.
+
+Analouge recoding devices record the height of the sound wave as it changes.
+However, a computer is digital and cannot store continuous data.
+This is why we need sampling.
+If the sample rate is 5Hz that means that 5 samples are taken per second.
+
+A sample just a snapshot of the sound wave at that moment in time.
+
+Having a digital sound file allows you to edit and maninpulate the sound with computer equiptment.
+
+CDs have a smaple rate of 44.1KHz, or 44100 samples per second.
+
+![sample rate diagram](https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.bluefoxvideo.com%2Fimages%2Farticles%2Fsamplerate.jpg&f=1)
+
+Bit depth is the amount of bits used to represent each sample.
+If the bit depth is higher, the digital file will be more accureate.
+
+#### Calculating file size.
+To calculate the file size, you need the sample rate, bit depth, number of channels (mono / stero) and the length of the recording.
+You then multiply all of these values to get the file size
 
 ## Types of storage
 There are three main types of storage
