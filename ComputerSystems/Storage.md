@@ -4,6 +4,105 @@
 Secondary storage is the permenant storeage on your computer.
 It is used to store the OS, programs and files.
 
+## How much storage do I need?
+All data on a computer is stored in binary.
+This means data that we input needs to be storaged as 1s and 0s, and then we need to be able to read it again.
+Storing text, images, music and other files as binary is called binary representation
+We need to understand how a computer stores file to know how much storage we need
+
+### Text
+#### ASCII
+ASCII stands for 'American Standard Code for Information Interchage'.
+It was the first standard for representing letters in binary.
+Before this everyone had a different system, so products from different manufactures could not 'talk' to each other.
+ASCII was originally 7-bit, meaning that there are 128 possible combinations.
+Not all of these 128 combinations are used for english letters. There are also 'non printing' characters link backspace, shift on, shift off, etc.
+Symbols and numbers are also represented in ascii.
+
+<div id="tt">
+Here is just the printing ASCII characters. <i>skip to <a href="#tb">bottom</a></i>
+</div>
+
+ASCII | 8-bin binary | Denary
+------|--------------|-------
+32 | 0100000 | space
+33 | 0100001 | !
+34 | 0100010 | "
+35 | 0100011 | #
+36 | 0100100 | $
+37 | 0100101 | %
+38 | 0100110 | &
+39 | 0100111 | '
+40 | 0101000 | (
+41 | 0101001 | )
+42 | 0101010 | *
+43 | 0101011 | +
+44 | 0101100 | ,
+45 | 0101101 | -
+46 | 0101110 | .
+47 | 0101111 | /
+48 | 0110000 | 0
+49 | 0110001 | 1
+50 | 0110010 | 2
+51 | 0110011 | 3
+52 | 0110100 | 4
+53 | 0110101 | 5
+54 | 0110110 | 6
+55 | 0110111 | 7
+56 | 0111000 | 8
+57 | 0111001 | 9
+58 | 0111010 | :
+59 | 0111011 | ;
+60 | 0111100 | <
+61 | 0111101 | =
+62 | 0111110 | >
+63 | 0111111 | ?
+64 | 01000000 | @
+65 | 01000001 | A
+66 | 01000010 | B
+67 | 01000011 | C
+68 | 01000100 | D
+69 | 01000101 | E
+70 | 01000110 | F
+71 | 01000111 | G
+72 | 01001000 | H
+73 | 01001001 | I
+74 | 01001010 | J
+75 | 01001011 | K
+76 | 01001100 | L
+77 | 01001101 | M
+78 | 01001110 | N
+79 | 01001111 | O
+80 | 01010000 | P
+
+<div id="tb">
+<i>go to table <a href="#tt">top</a></i>
+</div>
+
+Using ascii you can represent words so **72 101 108 108 111 44 32 87 111 114 108 100 33** would be **Hello, World!**
+
+#### Extended ASCII
+ASCII was not big enough.
+People needed ways to encode mathmatical symbols etc. on  acomputer, so Extended ASCII was invented.
+This was an 8-bit verision on ASCII with 256 code.
+(I won't put them all here, but with a quick internet search i'm sure you can find an extended ASCII table)
+This made sence as computers process data in 8-bit bytes.
+
+#### Unicode
+Extended ASCII still had its issues.
+It did not allow counties that use diffrent writing schemes to communicate.
+With all of the latin alphabet, the Cyrillic script, and the thousands of japaneese characters a new solution was needed.
+This was why the Unicde Consortium was founded. It's job was to maintain and popularises Unicode.
+Unicode has space of characters from most (if not all) writing systems and even has space for emoji!
+
+The first hundrard or so characters of unicode are the same as that of ASCII, to allow cross compatibitly with older devices
+
+#### How big is an ASCII file?
+In extended ASCII (we will not just refer to this as ASCII, as noone use 7-bit ASCII anymore), each character is represented as 1 byte.
+This means that to calcuate the file of a plain text file, you just get the amount of characters (include spaces) and that is your amount of bytes.
+So, **Hello, World! I am learning Computer Science.** has 45 characters so is 45 bytes in size.
+
+## Types of storage
 There are three main types of storage
 * Optical
 * Magnetic
